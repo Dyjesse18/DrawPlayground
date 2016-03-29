@@ -44,3 +44,7 @@ public class JMenuFrame extends JFrame implements Action Listener
                         System.out.println("");
         }//end of JMenuFrame
 }//end of JFrame extentension
+public static void main(String[] args)
+{
+        JMenuFrame myFrame = new JMenuFrame();        
+}//end of main
