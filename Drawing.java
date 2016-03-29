@@ -36,10 +36,8 @@ public class JMenuFrame extends JFrame implements Action Listener
                 menuItem.setActionCommand( "A2" );
                 menuItem.addActionListener( this );
                 menu.add(menuItem);
-
         }//end of JMenuFrame
 }//end of JFrame extentension
-
 public class DrawingPane extends JPanel implements ActionListener, MouseMotionListener, MouseListener 
 {
                 System.out.println("Creating_Super...");
@@ -67,10 +65,6 @@ public void actionPerformed( ActionEvent e ) {
                 break;
         }//end of switch
     }//end of actionPerformed
-    
-
-    
-
     @Override
     public void mouseClicked(MouseEvent e) {
     }
